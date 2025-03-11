@@ -9,11 +9,12 @@ The `architecture-render.ps1` script is a PowerShell script designed to render t
 To run the `architecture-render.ps1` script, follow these steps:
 
 1. Open a PowerShell terminal.
-2. Navigate to the `dev-scripts` directory:
+2. Navigate to the `your projects root folder` directory:
     ```sh
-    cd path\to\dev-scripts
+    cd path\to\root-project
     ```
-3. Execute the script:
+3. Place file in this root directory for your project
+4. Execute the script:
     ```sh
     .\architecture-render.ps1
     ```
@@ -34,7 +35,7 @@ To run the `architecture-render.ps1` script, follow these steps:
 Here is an example of how to run the script:
 
 ```sh
-cd path\to\dev-scripts
+cd path\to\my-project-root\
 .\architecture-render.ps1
 ```
 
