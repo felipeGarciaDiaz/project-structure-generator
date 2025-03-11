@@ -1,2 +1,47 @@
-# project-structure-generator
-This is a nice and simple bash script that you run at the root of any programming project you may be working on, and it generates a nice structured json file with your full project architecture. Great for finding ways to optimize and organize your project easily and quickly with this fun tool.
+# Project Architecture Structure Generator Script
+
+## Overview
+
+The `architecture-render.ps1` script is a PowerShell script designed to render the architecture of the Scratch Quest project. This script generates a visual representation of the project's structure, making it easier to understand and navigate the codebase.
+
+## Usage
+
+To run the `architecture-render.ps1` script, follow these steps:
+
+1. Open a PowerShell terminal.
+2. Navigate to the `dev-scripts` directory:
+    ```sh
+    cd path\to\dev-scripts
+    ```
+3. Execute the script:
+    ```sh
+    .\architecture-render.ps1
+    ```
+
+## Features
+
+- **Visual Representation**: The script generates a visual representation of the project's architecture.
+- **Easy Navigation**: Helps developers quickly understand the structure of the project.
+- **Customizable**: The script can be modified to include additional details or to change the format of the output.
+
+## Requirements
+
+- PowerShell 5.0 or later
+- Access to the project's root directory
+
+## Example
+
+Here is an example of how to run the script:
+
+```sh
+cd path\to\dev-scripts
+.\architecture-render.ps1
+```
+
+## Contribution
+
+If you have any suggestions or improvements for the script, feel free to open a pull request or create an issue on GitHub.
+
+## License
+
+This script is licensed under the MIT License. See the [LICENSE](../LICENSE) file for more details.
